@@ -8,7 +8,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0}}
         transition={{ duration: 0.8 }} className="max-w-xl"
         >
-            <h1 className="text-5x1 md:text-6xl font-bold leading-tight">No Prompt for now</h1>
+            <h1 className="text-5x1 md:text-6xl font-bold leading-tight">Ayanokoji Kiyotaka</h1>
         </motion.div>
     )
 }
