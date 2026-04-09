@@ -11,6 +11,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-12 md:py-24 flex flex-col md:flex-row items-center justify-between gap-12">
         <Hero />
         <SearchPrompt />
+          
       </div>
     </main>
   );

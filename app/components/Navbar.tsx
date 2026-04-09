@@ -12,13 +12,22 @@ import { Button } from "@/components/ui/button";
 export default function Navbar() {
     const navItems = [
         {
-            icon: "",
-            label: "Wolf",
+            icon: "/image/yas.jpg   ",
+            label: "Sakuragi",
         },
         {
-            icon: "",
-            label: "",
+            icon: "/image/yas.jpg",
+            label: "Mikey",
 
+        },
+        {
+            icon: "/image/yas.jpg",
+            label: "Mikey",
+        },
+
+        {
+            icon: "/image/yas.jpg",
+            label: "Mikey",
         }
     ]
 
@@ -34,7 +43,7 @@ export default function Navbar() {
                 {navItems.map((item, index) => (
                     <motion.div key={item.label} whileHover={{ scale: 1.1}}
                     className="relative w-10 h-10">
-                        <Image src={item.icon || "/yas.jpg"} alt={item.label} fill className="object-contain" />
+                        <Image src={item.icon || "/image/yas.jpg"} width={350} height={350} alt={item.label}  className="object-contain" />
 
                     </motion.div>
                 ))}

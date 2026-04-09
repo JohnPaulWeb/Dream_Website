@@ -16,7 +16,7 @@ export default function AboutHero() {
              transition={{ delay: 0.4 }}
              >
 
-                Bridging Dreams and Reality
+                Bridging Dreams and Reality Let Show the Stage
             </motion.h1>
 
             <motion.p className="mt-6 text-xl text-gray-600"
@@ -24,7 +24,7 @@ export default function AboutHero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}>
                 
-                What is your Biggest Dream?     
+                What is your Biggest Dream? Is it Worth
 
             </motion.p>
         </motion.div>
